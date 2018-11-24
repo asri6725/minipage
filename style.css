@@ -1,0 +1,16 @@
+.name{
+	margin: auto;
+	float: left;
+}
+.links{
+	margin: auto;
+}
+.profile-picture{
+	margin: auto;
+	border-radius: 50%;
+	float: right
+}
+.text{
+	margin: auto;
+	float: center;
+}
