@@ -1,16 +1,26 @@
-.name{
-	margin: auto;
-	float: left;
+body{
+	 background-image: url("bg1.jpg");
 }
-.links{
-	margin: auto;
+.wrapper{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	width: 50%;
+	background-color: #A9A9A9;
+	width : 420px;
+	padding: 20px;
+	
 }
-.profile-picture{
-	margin: auto;
-	border-radius: 50%;
-	float: right
+.dp{
+	text-align: center;
 }
-.text{
-	margin: auto;
-	float: center;
+.box1{
+	width: 200px;
+	padding: 20px;
+}
+.box2{
+	width: 200px;
+	float: right;
+	padding: 20 px;
 }
