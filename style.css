@@ -1,12 +1,15 @@
-body{
-}
+
 .mypart{
 	margin-top: 0;
 	background-image: url("img/background.jpg");
 	background-repeat: repeat-x;
 	background-size: 100% 100%;
-	width:100%;
-	height:100%;
+	position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
 }
 .wrapper{
 	display: block;
@@ -31,10 +34,20 @@ body{
 	width: 200px;
 	padding: 20px;
 }
+.heading_name{
+  font-family: 'ABeeZee';
+  font-size: 16px;
+}
+.list_names{
+  font-family: 'ABeeZee';
+  font-size: 18px;
+}
 .box2{
 	width: 200px;
+	height: 210px;
 	float: right;
-	padding: 20 px;
+	font-family: 'ABeeZee';
+	font-size: 18px;
 }
 .button{
 	float: center;
@@ -50,9 +63,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.desc{
-	text-align: center;
 }
 canvas {
     border: 1px solid white;
